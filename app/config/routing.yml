@@ -1,0 +1,4 @@
+my_kanban:
+    resource: "@MyKanbanBundle/Resources/config/routing.yml"
+    prefix:   /
+

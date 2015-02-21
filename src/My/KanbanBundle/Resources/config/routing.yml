@@ -1,0 +1,7 @@
+my_kanban_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: MyKanbanBundle:Default:index }
+
+my_kanban_show:
+    path:     /board/{board_id}
+    defaults: { _controller: MyKanbanBundle:Default:board }

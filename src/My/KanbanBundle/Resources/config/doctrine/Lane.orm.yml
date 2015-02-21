@@ -1,0 +1,16 @@
+My\KanbanBundle\Entity\Lane:
+  type: entity
+  id:
+    id:
+      type: integer
+      generator: { strategy: AUTO }
+  fields:
+    board_id:
+      type: integer 
+    name:
+      type: string
+      length: 100
+    index:
+      type: integer 
+
+
